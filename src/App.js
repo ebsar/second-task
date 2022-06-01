@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./index.css";
+import Domains from "./Components/Domains";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tabs className="Tabs">
+        <TabList className="Tab-List">
+          <Tab className="one">Domains</Tab>
+          <Tab className="two">Web Hosting</Tab>
+          <Tab className="three">Dedicated Servers</Tab>
+          <Tab className="four">Virtual Cloud Servers</Tab>
+          <Tab className="five">WordPress Hosting</Tab>
+          <Tab className="six">Email Hosting</Tab>
+          <Tab className="seven">VPS Hosting</Tab>
+          <Tab className="eight">Free Hosting</Tab>
+        </TabList>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+        <TabPanel>
+          <Domains />
+        </TabPanel>
+      </Tabs>
     </div>
   );
 }
