@@ -11,12 +11,12 @@ body {
   display: flex;
 }
 .card {
-  padding: 20px;
+  padding: 25px;
   align-items: center;
   border-radius: 12px;
   background-color: white;
-  width: 13rem;
-  margin: 50px;
+  width: 15%;
+  margin: 15px 2.5%;
 }
 h2 {
   font-weight: 300;
@@ -46,6 +46,7 @@ h2 {
   list-style-type: none;
   display: flex;
   text-align: center;
+
   width: 100%;
 }
 .one,
@@ -56,14 +57,10 @@ h2 {
 .six,
 .seven,
 .eight {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .Container {
   display: flex;
+  flex-wrap: wrap;
 }
-.TabPanel :active {
-  color: brown;
-}.TabPanel::before {
-    color: tomato;
-  }
