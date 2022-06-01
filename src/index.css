@@ -9,12 +9,11 @@ body{
     text-align: center;
     width: 100%;
     justify-content: space-between;
-    flex-wrap: wrap;padding-left: 20px;
-    padding-right: 20px;
+    flex-wrap: wrap;
     display: flex;
     padding: 20px;
 }.react-tabs__tab--selected{
-    border-bottom: 1px solid #7096ff;
+    border-bottom: 2px solid red;
 }.one,
 .two,
 .three,
@@ -26,8 +25,6 @@ body{
   padding-left: 8px;
   padding-right: 8px;
   display: flex;
-  padding: 20px;
-
 }
 /*.card {
   padding: 25px;
