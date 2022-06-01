@@ -13,7 +13,7 @@ body{
     display: flex;
     padding: 20px;
 }.react-tabs__tab--selected{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #7096ff;
 }.one,
 .two,
 .three,
