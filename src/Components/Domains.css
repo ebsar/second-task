@@ -1,0 +1,35 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 25px;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  width: 15%;
+  margin: 15px 2.5%;
+}
+h2 {
+  font-weight: 300;
+}
+.btn {
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  border-radius: 5px;
+  color: #7096ff;
+  border: 1px solid #7096ff;
+  background-color: white;
+}.Domain-name {
+    text-align: center;
+    padding: 10px;
+  }
+  .Price-container {
+    text-align: center;
+    font-weight: bold;
+  }
+  .Price-instead {
+    text-align: center;
+    padding: 15px;
+    color: grey;
+  }

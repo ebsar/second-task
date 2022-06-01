@@ -1,4 +1,48 @@
-body {
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    margin:0;
+    background-color: whitesmoke;
+    font-weight: lighter;
+}.Tab-List{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    padding: 20px;
+}.react-tabs__tab--selected{
+    border-bottom: 1px solid #7096ff;
+}.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  padding: 20px;
+
+}
+/*.card {
+  padding: 25px;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+  width: 15%;
+  margin: 15px 2.5%;
+} .Tab-List {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}body {
   padding: 20px;
   background-color: whitesmoke;
   font-family: sans-serif;
@@ -10,45 +54,7 @@ body {
 .App {
   display: flex;
 }
-.card {
-  padding: 25px;
-  align-items: center;
-  border-radius: 12px;
-  background-color: white;
-  width: 15%;
-  margin: 15px 2.5%;
-}
-h2 {
-  font-weight: 300;
-}
-.btn {
-  padding: 0.5rem 1.5rem;
-  width: 100%;
-  border-radius: 5px;
-  color: #7096ff;
-  border: 1px solid #7096ff;
-  background-color: white;
-}
-.Domain-name {
-  text-align: center;
-  padding: 10px;
-}
-.Price-container {
-  text-align: center;
-  font-weight: bold;
-}
-.Price-instead {
-  text-align: center;
-  padding: 15px;
-  color: grey;
-}
-.Tab-List {
-  list-style-type: none;
-  display: flex;
-  text-align: center;
 
-  width: 100%;
-}
 .one,
 .two,
 .three,
@@ -59,8 +65,16 @@ h2 {
 .eight {
   padding-left: 20px;
   padding-right: 20px;
+  border-style: solid;
+  display: flex;
+  padding: 20px;
+  background-color: yellowgreen;
 }
 .Container {
   display: flex;
   flex-wrap: wrap;
-}
+}.one :active{
+    color: aqua;
+    border-style: solid ;
+
+} */

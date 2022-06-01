@@ -1,4 +1,5 @@
 import React from "react";
+import "./Domains.css";
 const domainss = [
   {
     title: ".COM",
@@ -41,7 +42,7 @@ const domainss = [
     text: "Instead of $10.99/yr",
   },
 ];
-function Card(props) {
+function Card() {
   return (
     <div className="Container">
         {domainss.map((domains) => (
