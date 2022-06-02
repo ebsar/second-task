@@ -1,16 +1,27 @@
-body{
+*{
+  @media(max-width:1000px){
+    .post-container{
+      width:47% !important;
+    }
+  }
+  @media (max-width:600px) {
+    .post-container{
+      width:100% !important;
+    }
+  }
+}body{
     background-color: whitesmoke;
 }.App{
-    @media(max-width:1000px){
-        .post-container{
-          width:47% !important;
-        }
-      }
-      @media (max-width:600px) {
-        .post-container{
-          width:100% !important;
-        }
-      }
+  /* @media(max-width:1000px){
+    .post-container{
+      width:47% !important;
+    }
+  }
+  @media (max-width:600px) {
+    .post-container{
+      width:100% !important;
+    }
+  } */
 }.Tab-List{
     list-style-type: none;
     text-align: center;
