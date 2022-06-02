@@ -41,18 +41,18 @@ const domainss = [
     price: "$16.33/yr",
     text: "Instead of $10.99/yr",
   },
-];
-function Card() {
+]; 
+function Card(props) {
   return (
     <div className="Container">
         {domainss.map((domains) => (
-      <div className="card">
+       <div className="card">
         <div className="Domain-name"><h2>{domains.title}</h2></div>
         <div className="Price-container">{domains.price}</div>
-        <div className="Price-instead">{domains.text}</div>
+        <div className="Price-instead"><small>{domains.text}</small></div>
         <button className="btn">Buy Now</button>
-      </div>
-      ))}
+      </div> 
+      ))} 
     </div>
   );
 }

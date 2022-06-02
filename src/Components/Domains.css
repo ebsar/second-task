@@ -20,16 +20,17 @@ h2 {
   color: #7096ff;
   border: 1px solid #7096ff;
   background-color: white;
-}.Domain-name {
-    text-align: center;
-    padding: 10px;
-  }
-  .Price-container {
-    text-align: center;
-    font-weight: bold;
-  }
-  .Price-instead {
-    text-align: center;
-    padding: 15px;
-    color: grey;
-  }
+}
+.Domain-name {
+  text-align: center;
+  padding: 5px;
+}
+.Price-container {
+  text-align: center;
+  font-weight: bold;
+}
+.Price-instead {
+  text-align: center;
+  padding: 15px;
+  color: grey;
+}

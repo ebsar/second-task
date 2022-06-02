@@ -1,14 +1,20 @@
 body{
-    padding: 20px;
-    font-family: sans-serif;
-    margin:0;
     background-color: whitesmoke;
-    font-weight: lighter;
+}.App{
+    @media(max-width:1000px){
+        .post-container{
+          width:47% !important;
+        }
+      }
+      @media (max-width:600px) {
+        .post-container{
+          width:100% !important;
+        }
+      }
 }.Tab-List{
     list-style-type: none;
     text-align: center;
     width: 100%;
-    justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
     padding: 20px;
@@ -22,56 +28,7 @@ body{
 .six,
 .seven,
 .eight {
-  padding-left: 8px;
-  padding-right: 8px;
-  display: flex;
-}
-/*.card {
-  padding: 25px;
-  align-items: center;
-  border-radius: 12px;
-  background-color: white;
-  width: 15%;
-  margin: 15px 2.5%;
-} .Tab-List {
-  list-style-type: none;
-  flex-wrap: wrap;
-  display: flex;
-  text-align: center;
-  width: 100%;
-}body {
-  padding: 20px;
-  background-color: whitesmoke;
-  font-family: sans-serif;
-  margin: 0;
-  font-weight: lighter;
-  box-sizing: border-box;
-  justify-content: space-between;
-}
-.App {
-  display: flex;
-}
-
-.one,
-.two,
-.three,
-.four,
-.five,
-.six,
-.seven,
-.eight {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-style: solid;
-  display: flex;
-  padding: 20px;
-  background-color: yellowgreen;
-}
-.Container {
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
-}.one :active{
-    color: aqua;
-    border-style: solid ;
-
-} */
+}
